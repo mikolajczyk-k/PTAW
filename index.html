@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BPM counter</title>
+</head>
+<body>
+
+
+    <div id="mainContainer">
+        <div id="metronomeContainer">
+            <div class="circle" id="circle1"></div>
+            <div class="circle" id="circle2"></div>
+            <div class="circle" id="circle3"></div>
+            <div class="circle" id="circle4"></div>
+        </div>
+        <div id="result"></div>
+        <input type="button" id="beatButton" value="Click">
+
+        <div id="settingsContainer">
+
+        <div id="signatureContainer">
+            <label for="signatureContainer">Signature</label>
+            <button class="timeSig selected" data-value="4">4/4</button>
+            <button class="timeSig" data-value="3">3/3</button>
+            <button class="timeSig" data-value="1">none</button>
+        </div>
+        <div id="precisionContainer">
+            <label for="precisionContainer">Precision</label>
+            <button class="precision" data-value=3>whole</button>
+            <button class="precision selected" data-value=4>.0</button>
+            <button class="precision" data-value=5>.00</button>
+
+        </div>
+
+        
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
