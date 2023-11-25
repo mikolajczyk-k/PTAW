@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
 
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,44,48,1) 35%, rgba(106,112,118,1) 100%);
+}
 
 #mainContainer{
+    font-family: "Mukta", sans-serif;
     width: 60%; 
     height: 80%;
-    background-color: #f0f0f0;
+    background-color: #eff1ecd9;
     margin: 0 auto; 
     position: absolute;
     top: 50%; 
@@ -32,6 +38,8 @@
 }
 
 #beatButton{
+    background-color: #eff1ecd9;
+    font-family: "Mukta", sans-serif;
     justify-content: center; 
     width: 95%;
     height: 20%;
@@ -43,7 +51,7 @@
 .circle{
     width: 80px;
     height: 80px;
-      border: 2px solid black;
+      border: 2px solid #212c30;
       border-radius: 50%;
       display: inline-block;
       margin: 10px;
@@ -51,11 +59,11 @@
 }
 
 #circle1 {
-    border: 5px solid black;
+    border: 5px solid #212c30;
 }
 
 .filled {
-    background-color: black;
+    background-color: #212c30;
   }
 
   .hidden {
@@ -88,7 +96,7 @@
     cursor: pointer;
   }
   .timeSig.selected{
-    background-color: aqua;
+    background-color: #798cc098
   }
 
   #precisionContainer{
@@ -110,5 +118,5 @@
     cursor: pointer;
   }
   .precision.selected{
-    background-color: aqua;
+    background-color: #798cc098;
   }
